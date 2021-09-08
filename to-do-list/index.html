@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js">        
+        </script>
+    
+</head>
+<body>
+
+    <form>
+    <input id="textinput1" type="text" placeholder="input here" onkeydown="if (event.keyCode == 13) { fetchtext(); return false; }" >
+    <button id="submitbutton1" type="button" onclick="fetchtext();">hinzufügen!</button>
+</form>
+      <ol id="list1">
+      </ol>  
+
+
+
+
+
+      <script src="script.js"></script>
+
+
+</body>
+</html>
+
